@@ -24,10 +24,13 @@
   ],
   "scripts": {
     "build": "tsc --emitDeclarationOnly && bun build ./src/index.ts --outdir ./dist --target node",
+    "build:docs": "typedoc",
     "test": "vitest"
   },
   "devDependencies": {
     "typescript": "^5.5.3",
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-markdown": "^4.10.0",
     "vitest": "^4.1.0"
   }
 }

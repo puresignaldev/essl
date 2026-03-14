@@ -13,12 +13,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "docs:api": "typedoc --plugin typedoc-plugin-markdown --out content/api --tsconfig ../tsconfig.json ../src/index.ts"
+    "preview": "nuxt preview"
   },
-  "type": "module",
-  "devDependencies": {
-    "typedoc": "^0.28.17",
-    "typedoc-plugin-markdown": "^4.10.0"
-  }
+  "type": "module"
 }
